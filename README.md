@@ -5,7 +5,7 @@
 A lo largo de este repositorio se le dará solución a todas las actividades planteadas en el reto n°5.
 
 1. Dado la figura de la imagen, desarrolle:
-![Imagen 1](img_1.png)
+![imagen 1](imágenes/img_1.png)
 
 - Una función matemática para calcular el volumen y el área superficial.
 - Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r1, r2 y h.
@@ -34,7 +34,7 @@ if __name__ == "__main__":
 ```
 
 2. Dado la figura de la imagen, desarrolle:
-![Imagen 2](img_2.png)
+![imagen 2](imágenes/img_1.png)
 
 - Una función matemática para calcular el área y el perimetro.
 - Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r, a y b.
@@ -222,8 +222,8 @@ Se usa para crear videojuegos en Python.
 Instalación:
 -  pip install pygame
 
-## Nombre:
+# Nombre:
 Brayab Santiago Rincón Rodríguez.
 
-## Curso:
+# Curso:
 Programación de computadores.
