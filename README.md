@@ -37,7 +37,7 @@ if __name__ == "__main__":
 ```
 
 2. Dado la figura de la imagen, desarrolle:
-![imagen 2](imagenes/img_2.jpg)
+![imagen 2](Imagenes/img_2.jpg)
 
 - Una función matemática para calcular el área y el perimetro.
 - Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r, a y b.
