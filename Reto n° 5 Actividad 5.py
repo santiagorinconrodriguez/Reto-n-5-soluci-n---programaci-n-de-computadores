@@ -1,13 +1,13 @@
 
-def calcular_promedio(a, b, c, d, e):
+def calcular_promedio(a: float, b: float, c:float, d:float, e:float) -> float:
     return (a + b + c + d + e) / 5
 
-def promedio_multiplicativo(a, b, c, d, e):
+def promedio_multiplicativo(a: float, b: float, c:float, d:float, e:float) -> float:
     producto = a * b * c * d * e
     return producto ** (1/5)
 
-# No sabría cómo hacer una función más corta para la buena práctica DRy (don't repeat yourself)
-def encontrar_mayor(a, b, c, d, e):
+# No sabría cómo hacer una función más corta para la buena práctica DRY(don't repeat yourself)
+def encontrar_mayor(a: float, b: float, c:float, d:float, e:float) -> float:
     mayor = a
     if b > mayor:
         mayor = b
@@ -19,7 +19,7 @@ def encontrar_mayor(a, b, c, d, e):
         mayor = e
     return mayor
 
-def encontrar_menor(a, b, c, d, e):
+def encontrar_menor(a: float, b: float, c:float, d:float, e:float) -> float:
     menor = a
     if b < menor:
         menor = b
@@ -31,12 +31,12 @@ def encontrar_menor(a, b, c, d, e):
         menor = e
     return menor
 
-def potencia_mayor_al_menor(a, b, c, d, e):
+def potencia_mayor_al_menor(a: float, b: float, c:float, d:float, e:float) -> float:
     mayor = encontrar_mayor(a, b, c, d, e)
     menor = encontrar_menor(a, b, c, d, e)
     return mayor ** menor
 
-def raiz_cubica_menor(a, b, c, d, e):
+def raiz_cubica_menor(a: float, b: float, c:float, d:float, e:float) -> float:
     menor = encontrar_menor(a, b, c, d, e)
     return menor ** (1/3)
 

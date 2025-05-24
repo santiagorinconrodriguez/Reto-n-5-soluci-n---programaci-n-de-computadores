@@ -99,15 +99,15 @@ if __name__ == "__main__":
 - La potencia del mayor número elevado al menor número
 - La raíz cúbica del menor número
 ```python
-def calcular_promedio(a, b, c, d, e):
+def calcular_promedio(a: float, b: float, c:float, d:float, e:float) -> float:
     return (a + b + c + d + e) / 5
 
-def promedio_multiplicativo(a, b, c, d, e):
+def promedio_multiplicativo(a: float, b: float, c:float, d:float, e:float) -> float:
     producto = a * b * c * d * e
     return producto ** (1/5)
 
-# No sabría cómo hacer una función más corta para la buena práctica DRy (don't repeat yourself)
-def encontrar_mayor(a, b, c, d, e):
+# No sabría cómo hacer una función más corta para la buena práctica DRY(don't repeat yourself)
+def encontrar_mayor(a: float, b: float, c:float, d:float, e:float) -> float:
     mayor = a
     if b > mayor:
         mayor = b
@@ -119,7 +119,7 @@ def encontrar_mayor(a, b, c, d, e):
         mayor = e
     return mayor
 
-def encontrar_menor(a, b, c, d, e):
+def encontrar_menor(a: float, b: float, c:float, d:float, e:float) -> float:
     menor = a
     if b < menor:
         menor = b
@@ -131,12 +131,12 @@ def encontrar_menor(a, b, c, d, e):
         menor = e
     return menor
 
-def potencia_mayor_al_menor(a, b, c, d, e):
+def potencia_mayor_al_menor(a: float, b: float, c:float, d:float, e:float) -> float:
     mayor = encontrar_mayor(a, b, c, d, e)
     menor = encontrar_menor(a, b, c, d, e)
     return mayor ** menor
 
-def raiz_cubica_menor(a, b, c, d, e):
+def raiz_cubica_menor(a: float, b: float, c:float, d:float, e:float) -> float:
     menor = encontrar_menor(a, b, c, d, e)
     return menor ** (1/3)
 
@@ -173,54 +173,54 @@ Algunos comandos básicos:
 - pip install -r requirements.txt : instala varios desde un archivo.
 
 7. Hacer un listado de módulos populares para python que se puedan instalar com pip y consultar cómo instalarlos.
-
-Algunos de los módulos más populares son:
-
-### numpy
+ 
+Algunos de los módulos más populares son
+     
+#### numpy
 Sirve para cálculos matemáticos y operaciones con matrices.
 Instalación:
 -  pip install numpy
 
-### pandas
+#### pandas
 Se usa para análisis y manipulación de datos, especialmente en forma de tablas.
 Instalación:
 -  pip install pandas
 
-### matplotlib
+#### matplotlib
 Permite crear gráficos y visualizaciones.
 Instalación:
 -  pip install matplotlib
 
-### scikit-learn
+#### scikit-learn
 Muy usado en inteligencia artificial y machine learning.
 Instalación: pip install scikit-learn
 
-### requests
+#### requests
 Para hacer peticiones HTTP, útil para consumir APIs.
 Instalación:
 -  pip install requests
 
-### flask
+#### flask
 Un microframework para desarrollar aplicaciones web.
 Instalación:
 -  pip install flask
 
-### django
+#### django
 Framework completo para aplicaciones web robustas.
 Instalación:
 -  pip install django
 
-### openpyxl
+#### openpyxl
 Sirve para leer y modificar archivos Excel (.xlsx).
 Instalación: 
 - pip install openpyxl
 
-### beautifulsoup4
+#### beautifulsoup4
 Para extraer información de páginas web (web scraping).
 Instalación:
 -  pip install beautifulsoup4
 
-### pygame
+#### pygame
 Se usa para crear videojuegos en Python.
 Instalación:
 -  pip install pygame
