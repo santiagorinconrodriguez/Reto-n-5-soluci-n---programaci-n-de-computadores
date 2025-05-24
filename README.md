@@ -8,7 +8,7 @@
 A lo largo de este repositorio se le dará solución a todas las actividades planteadas en el reto n°5.
 
 1. Dado la figura de la imagen, desarrolle:
-![imagen 1](imagenes/img_1.jpg)
+![imagen 1](Imagenes/img_1.jpg)
 
 - Una función matemática para calcular el volumen y el área superficial.
 - Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r1, r2 y h.
