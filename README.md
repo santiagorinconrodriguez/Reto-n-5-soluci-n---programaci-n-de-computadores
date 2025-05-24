@@ -7,8 +7,11 @@
 
 A lo largo de este repositorio se le dará solución a todas las actividades planteadas en el reto n°5.
 
-![imagen 1](Imagenes/img_1.jpg)
+
 1. Dado la figura de la imagen, desarrolle:
+
+![imagen 1](Imagenes/img_1.jpg)
+
 
 - Una función matemática para calcular el volumen y el área superficial.
 - Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r1, r2 y h.
@@ -36,8 +39,10 @@ if __name__ == "__main__":
     print("Rl área superficial total de la figura es: " + str(area))
 ```
 
-![imagen 2](Imagenes/Img_2.jpg)
 2. Dado la figura de la imagen, desarrolle:
+
+![imagen 2](Imagenes/Img_2.jpg)
+
 
 - Una función matemática para calcular el área y el perimetro.
 - Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r, a y b.
